@@ -63,6 +63,7 @@ public class Program
 
             app.UseHttpsRedirection();
 
+            app.UseDeveloperExceptionPage();
             app.UseAuthentication();
             app.UseAuthorization();
 
